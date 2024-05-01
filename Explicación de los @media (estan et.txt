@@ -1,0 +1,26 @@
+Explicación de los @media (estan etiquetados por orden en
+el css al igual que aqui:
+
+/*Primer @media*/
+Cambia el método de escalado de el texto que se encuentra
+en section de el predeterminado a 1.3em.
+
+/*Segundo @media*/
+Cambia nuevamente el método de escalado del texto de
+section de 1.3em a 1.8em con respecto al primer @media
+además agrega un camobio de color de la etiqueta h1 del
+predeterminado a naranja.
+
+/*Tercer @media*/
+s1 obtiene un padding de 2 unidades em, cambia el color de
+su fuente y su fondo. nav comparte la misma medida de
+padding que s1 su fondo y su color de fuente cambian a la
+par y obtiene la propiedad de text-transform qu cambia a 
+mayúsculas el contenido de su texto. En cambio h1 sólo
+cambia el color de su fuente.
+
+/*Cuarto @media*/
+En éste el nav obtiene una instrucción text-align
+que centra su contenido. Después de eso con la pseudo clase
+nth-child se selecciona el 2do y 3er hijo de section y 
+cambia los colores de sus respectivas fuentes a azul y café.
